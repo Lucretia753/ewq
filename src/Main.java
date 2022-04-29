@@ -3,14 +3,13 @@ public class Main {
         int balance = 100;
         int replenishment = 1100;
         int min = 1000;
-        boolean replenishes = true;
+        boolean replenish_the_balance = true;
 
         int sum = balance + replenishment;
         int bonus = replenishment / 100;
-        int percent = replenishes ? bonus : sum;
+        int percent = replenish_the_balance ? bonus : sum;
         int check = percent + sum;
         if (sum > min) {
-
         } else {
             check = sum;
         }
